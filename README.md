@@ -1,4 +1,4 @@
-# TODO(수정중)
+# TODO
 비기너 탈출 과제(TODO)
 
 ## 참고사항
@@ -36,14 +36,21 @@
 5. git push origin {동기화할 본인 branch 이름}
 
 ### 현재 Repository에 Branch 생성 방법
-1. 현재 Repository의 Projects에서 Item 생성
-  + Item 이름 설정
-    + [FEAT]새로운 기능, [BUG]버그 수정, [REFACTOR]코드 리팩토링
-    + ex)[FEAT]TODO 기능 구현 
+1. 현재 Repository의 Projects(TODO projects)에서 Item 생성
+    + Item 이름 설정
+        + [FEAT]새로운 기능, [BUG]버그 수정, [REFACTOR]코드 리팩토링
+        + ex)[FEAT]TODO 기능 구현 
 3. Assignees는 본인을 설정
 4. Convert to issue에서 TODO Repository로 설정
-5. Development에서 **Create a branch** 클릭
-6. Branch source는 develop branch로 설정
+5. 우측 메뉴의 Development 항목에서 **Create a branch** 클릭
+6. Branch 이름은 상황에 맞게 설정
+    + ex) feature/내용, release/내용, fix/내용, hotfix/내용 등
+7. Branch source는 develop branch로 설정
+8. Terminal에서 아래의 명령어를 순서대로 실행
+    + git fetch origin
+    + git checkout {본인이 설정한 Branch 이름}
+9. 개발 시작
+10. 개발 완료 후 add, commit, push
 
 
 ### 깃 충돌 해결 방법(develop branch에 merge를 진행하던 중 conflict 상황으로 설명)
