@@ -55,6 +55,7 @@
 
 ### 깃 충돌 해결 방법(develop branch에 merge를 진행하던 중 conflict 상황으로 설명)
 Android Studio의 terminal에서 진행할 것(코드 수정을 위해)
+
 다른 브랜치도 방법은 같음(develop만 원하는 branch 이름으로 변경)
 + git checkout develop
 + git pull origin develop
