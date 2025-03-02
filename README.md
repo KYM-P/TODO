@@ -46,7 +46,7 @@
 6. Branch 이름은 상황에 맞게 설정
     + ex) feature/내용, release/내용, fix/내용, hotfix/내용 등
 7. Branch source는 develop branch로 설정
-8. Terminal에서 아래의 명령어를 순서대로 실행
+8. 본인이 clone한 repository의 Terminal에서 아래의 명령어를 순서대로 실행
     + git fetch origin
     + git checkout {본인이 설정한 Branch 이름}
 9. 개발 시작
